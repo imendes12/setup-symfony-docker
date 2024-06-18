@@ -1,8 +1,8 @@
 # SETUP SYMFONY DOCKER
 
-Clean Symfony App for studies and begin php projects.
+Clean Symfony App for studies and to begin php projects.
 
-You needs only Docker installed to run this app.
+You need only Docker installed to run this app.
 
 ## Technologies
 
@@ -10,6 +10,7 @@ You needs only Docker installed to run this app.
 - PostgreSQL
 - nginx
 - Symfony Framework
+- PHPUnit
 
 ## Getting Started
 
@@ -27,3 +28,9 @@ Run the docker
 Done, it's all!
 
 Access the link http://localhost:8080
+
+## PHPUnit
+
+To execute phpunit run
+
+`docker exec setup-symfony-php php bin/phpunit`
